@@ -1,12 +1,12 @@
 import React from "react";
 
 const Header = () => {
-  const links = (
-    <li>
-      <a>Dashboard</a>
-      <a>Details</a>
-    </li>
-  );
+  const links = 
+    <>
+      <li>Dashboard</li>
+      <li>Details</li>
+    </>
+  ;
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
