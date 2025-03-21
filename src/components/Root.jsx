@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from './Header/Header';
 
 const Root = () => {
     return (
         <div>
-            <h1>Root shows</h1>
+            <Header></Header>
         </div>
     );
 };
