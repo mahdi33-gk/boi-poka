@@ -1,5 +1,5 @@
 import React from "react";
-import books from '../images'
+import books from '../images/books.jpg'
 
 const Home = () => {
   return (
