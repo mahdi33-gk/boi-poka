@@ -1,4 +1,5 @@
 import React from "react";
+import { FaRegStar } from "react-icons/fa";
 
 const Book = ({ book }) => {
   const { bookName, author, image, rating, category } = book;
@@ -12,12 +13,15 @@ const Book = ({ book }) => {
             className="rounded-xl"
           />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body items-center text-center border-b-2 border-dashed">
           <h2 className="card-title">{bookName}</h2>
           <p>
             by- {author}
           </p>
-          
+        </div>
+        <div>
+            <p>{category}</p>
+            <p>{rating} <FaRegStar></FaRegStar></p>
         </div>
       </div>
     </div>
