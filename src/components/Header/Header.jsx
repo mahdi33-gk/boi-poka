@@ -3,8 +3,8 @@ import React from "react";
 const Header = () => {
   const links = 
     <>
-      <li>Dashboard</li>
-      <li>Details</li>
+      <li><a href="">Dashboard</a> </li>
+      <li><a href="">Details</a></li>
     </>
   ;
   return (
