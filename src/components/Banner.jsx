@@ -11,7 +11,7 @@ const Banner = () => {
             <h1 className="text-5xl font-bold">
               Books to freshen up your bookshelf
             </h1>
-            <button className="btn btn-primary mt-16">View The List</button>
+            <button className="btn  text-white bg-[#23be0a] mt-16">View The List</button>
           </div>
         </div>
       </div>
