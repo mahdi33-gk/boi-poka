@@ -19,7 +19,7 @@ const Book = ({ book }) => {
         </figure>
         
         <div className="card-body">
-          <div className="flex justify-between ">
+          <div className="flex justify-center gap-3 ">
             <p className="font-semibold text-[#23be0a]">Pages:{totalPages}</p>
             <p className="font-semibold  text-[#23be0a]">Publishing Year: {yearOfPublishing}</p>
           </div>
