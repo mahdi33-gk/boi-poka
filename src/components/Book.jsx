@@ -14,8 +14,8 @@ const Book = ({ book }) => {
   return (
     <div className="">
       <div className="card bg-base-100 border-2 px-4 py-2 shadow-sm">
-        <figure className="px-10 pt-10">
-          <img src={image} alt="Shoes" className="rounded-xl md:max-h-[300px] bg-gray-300" />
+        <figure className="px-10  bg-gray-100 py-6">
+          <img src={image} alt={bookName} className="rounded-xl w-full  md:max-h-[300px] bg-gray-300" />
         </figure>
         
         <div className="card-body  border-b-2 border-dashed">
@@ -23,7 +23,7 @@ const Book = ({ book }) => {
             <p className="font-semibold text-[#23be0a]">Pages:{totalPages}</p>
             <p className="font-semibold  text-[#23be0a]">Publishing Year: {yearOfPublishing}</p>
           </div>
-          <h2 className="card-title text-2xl">{bookName}</h2>
+          <h2 className="card-title line-clamp-1 text-2xl">{bookName}</h2>
           <p className="text-sm">By : {author}</p>
         </div>
         <div className="flex justify-between items-center">
