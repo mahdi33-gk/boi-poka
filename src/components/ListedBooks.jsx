@@ -7,8 +7,8 @@ const ListedBooks = () => {
     <div>
       <Tabs>
         <TabList>
-          <Tab>Title 1</Tab>
-          <Tab>Title 2</Tab>
+          <Tab>WishList</Tab>
+          <Tab>SavedBooks</Tab>
         </TabList>
 
         <TabPanel>
