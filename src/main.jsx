@@ -10,6 +10,7 @@ import Root from './components/Root.jsx';
 import Home from './components/Home.jsx';
 import Dashboard from './components/Dashboard.jsx';
 import Bookdetail from './components/Bookdetail.jsx';
+import ListedBooks from './components/ListedBooks.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:'/dashboard',
         element: <Dashboard></Dashboard>
+      },
+      {
+        path: '/wishlist',
+        element: <ListedBooks></ListedBooks>
       }
     ]
   },
